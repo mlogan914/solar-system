@@ -108,5 +108,6 @@ jobs:
             context: .
             push: true
             tags: ${{ vars.OCKERHUB_USERNAME }}/solar-system:${{ github.sha }}
+            
 
 
